@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, NavItem } from "shards-react";
 // import { BrowserRouter, Route, Link } from "react-router-dom";
-import {Link, Router} from "react-router-dom";
+// import {Link, Router} from "react-router-dom";
 // import Home from '../../pages/Home/Home'
 // import About from '../../pages/About/About'
 import '../Nav/Nav.css';

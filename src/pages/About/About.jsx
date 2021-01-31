@@ -22,7 +22,15 @@ function About () {
 
     return(
         <Container className="about">
+            <Row>
+            <Col lg="4"></Col>
+            <Col lg="4">
             <h1>About Me</h1>
+            </Col>
+            <Col lg="4"></Col>
+            </Row>
+            <Row>
+            <Col sm="3"></Col>
             <Col sm="6">
                 <p>
                     My name is Carlicia but people call me Carly for short. I'm currently a Web 
@@ -33,18 +41,29 @@ function About () {
                     perfect user friendly web application. A quick learner, I'm well organized and 
                     calm under pressure looking to offer my skills to an innovative team.
                 </p>
-                <FontAwesomeIcon icon={faFile} href="Carlicia Smith Resume (4).pdf" />
             </Col>
-            <Col sm="6">
             <Row>
+                <Col sm="6"></Col>
+                <Col sm="3">
+                    <FontAwesomeIcon icon={faFile} href="Carlicia Smith Resume (4).pdf" />
+                </Col>
+                <Col sm="3"></Col>
+            </Row>
+            <Col sm="3"></Col>
+            </Row>
+            <Row>
+            <Col sm="4"></Col>
+            <Col sm="4">
                 <h1>Technical Skills</h1>
+            </Col>
+            <Col sm="4"></Col>
             </Row>
             <Row>
                 <Col sm="1"></Col>
                 <Col sm="2">
-                    <p className="devicon"> 
+                    <a className="devicon"> 
                     <IconHtml5 logoStyle="original" style={{ "blue" : "blue" }}/>
-                    </p>
+                    </a>
                 </Col>
                 {/* <Col  sm="2">
                     <IconCss3 width={100} height={100} />
@@ -58,8 +77,6 @@ function About () {
                 <Col sm="1"></Col> */}
 
             </Row>
-
-            </Col>
         </Container>
     )
 }

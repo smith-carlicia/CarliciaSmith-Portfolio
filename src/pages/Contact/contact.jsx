@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../pages/Contact/contact.css';
-import {Container, Row} from "shards-react";
+import {Container, Row, Col} from "shards-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -12,12 +12,30 @@ function Contact() {
     return(
         <Container className="container">
             <Row>
+            <Col sm="4"></Col>
+            <Col sm="4">
                 <h1 className="contactInfo">Contact</h1>
+            </Col>
+            <Col sm="4"></Col>
             </Row>
             <Row>
-                <FontAwesomeIcon icon={faEnvelope} target="__blank" onClick = "parent.location='mailto:smith.carlicia@gmail.com'"/>
-                <FontAwesomeIcon icon={faGithub}  target="__blank" href="https://github.com/smith-carlicia"/>    
-                <FontAwesomeIcon icon={faLinkedin} target="__blank" href="https://www.linkedin.com/in/carlicia-smith-613194b4/"/>
+                <Col sm="3"></Col>
+                <Col sm="2">
+                <a onClick = "parent.location='mailto:smith.carlicia@gmail.com" target="__blank">
+                <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+                </Col>
+                <Col sm="2">
+                <a href="https://www.linkedin.com/in/carlicia-smith-613194b4/" target="__blank" >
+                    <FontAwesomeIcon icon={faLinkedin}  />
+                </a>
+                </Col>
+                <Col sm="2">
+                <a href="https://github.com/smith-carlicia" target="__blank">
+                    <FontAwesomeIcon icon={faGithub}/>    
+                </a>
+                </Col>
+                <Col sm="3"></Col>
             </Row>
 
 

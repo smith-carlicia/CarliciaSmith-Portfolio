@@ -4,15 +4,14 @@ import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/portfolio'
 import Contact from './pages/Contact/contact'
 import React from "react";
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "shards-ui/dist/css/shards.min.css";
 import './App.css';
 
 function App() {
   return (
     <>
-      <Home />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <>
         <Nav/>
         <Switch>

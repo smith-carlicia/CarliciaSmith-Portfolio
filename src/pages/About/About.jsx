@@ -1,5 +1,5 @@
 import React from 'react'
-// import IconHtml5 from 'react-devicon/html5/plain-wordmark'
+import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconCss3 from 'react-devicon/css3/plain-wordmark'
 // import IconJavascript from 'react-devicon/javascript/plain'
 // import IconJquery from 'react-devicon/jquery/plain-wordmark'

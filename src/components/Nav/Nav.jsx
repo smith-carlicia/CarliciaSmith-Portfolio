@@ -1,17 +1,16 @@
 import React from 'react';
 import { Nav, NavItem } from "shards-react";
-// import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 // import {Link, Router} from "react-router-dom";
 // import Home from '../../pages/Home/Home'
 // import About from '../../pages/About/About'
 import '../Nav/Nav.css';
 
-const theNav=()=>{
+const Navigation=()=>{
     
     // const location = useLocation();
 
     return(
-        <Router>
             <Nav>
                 <NavItem>
                     <Link to="/">
@@ -22,15 +21,14 @@ const theNav=()=>{
                     <Link to="/About">About Me</Link>
                 </NavItem>
                 <NavItem>
-                    <Link href="../../pages/Portfolio.jsx">Portfolio</Link>
+                    {/* <Link to="../../pages/Portfolio.jsx">Portfolio</Link> */}
                 </NavItem>
                 <NavItem>
-                    <Link href="../../pages/Contact.jsx">
+                    {/* <Link href="../../pages/Contact.jsx">
                         Contact Me
-                    </Link>
+                    </Link> */}
                 </NavItem>
             </Nav>
-        </Router>
     )
 }
-export default theNav;
+export default Navigation;

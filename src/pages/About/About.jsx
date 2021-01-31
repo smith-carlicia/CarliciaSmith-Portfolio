@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../pages/About/About.css'
 import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconCss3 from 'react-devicon/css3/plain-wordmark'
 // import IconJavascript from 'react-devicon/javascript/plain'
@@ -12,12 +13,12 @@ import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconBootstrap from 'react-devicon/bootstrap/plain-wordmark'
 // import IconHeroku from 'react-devicon/heroku/plain-wordmark'
 
-import { Container, Row, Col } from "shards-react";
+import { Container, Row, Col, } from "shards-react";
 
 function About () {
 
     return(
-        <>
+        <Container className="about">
             <h1>About Me</h1>
             <Col sm="6">
                 <p>
@@ -37,9 +38,9 @@ function About () {
             <Row>
                 <Col sm="1"></Col>
                 <Col sm="2">
-                    <a>
-                        <IconHtml5  />
-                    </a>
+                    <p className="devicon"> 
+                    <IconHtml5 logoStyle="original" style={{ "blue" : "blue" }}/>
+                    </p>
                 </Col>
                 {/* <Col  sm="2">
                     <IconCss3 width={100} height={100} />
@@ -55,7 +56,7 @@ function About () {
             </Row>
 
             </Col>
-        </>
+        </Container>
     )
 }
 

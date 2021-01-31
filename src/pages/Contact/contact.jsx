@@ -18,7 +18,6 @@ function Contact() {
                 <FontAwesomeIcon icon={faEnvelope} target="__blank" onclick = "parent.location='mailto:smith.carlicia@gmail.com'"/>
                 <FontAwesomeIcon icon={faGithub}  target="__blank" href="https://github.com/smith-carlicia"/>    
                 <FontAwesomeIcon icon={faLinkedin} target="__blank" href="https://www.linkedin.com/in/carlicia-smith-613194b4/"/>
-    
             </Row>
 
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../pages/About/About.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconCss3 from 'react-devicon/css3/plain-wordmark'
 // import IconJavascript from 'react-devicon/javascript/plain'
@@ -30,6 +32,7 @@ function About () {
                     perfect user friendly web application. A quick learner, I'm well organized and 
                     calm under pressure looking to offer my skills to an innovative team.
                 </p>
+                <FontAwesomeIcon icon={faFile} />
             </Col>
             <Col sm="6">
             <Row>

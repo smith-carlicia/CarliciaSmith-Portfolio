@@ -2,6 +2,7 @@ import React from 'react'
 import '../../pages/About/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
+import DevIcon from "devicon-react-svg";
 import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconCss3 from 'react-devicon/css3/plain-wordmark'
 // import IconJavascript from 'react-devicon/javascript/plain'

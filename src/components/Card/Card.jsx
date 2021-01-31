@@ -17,8 +17,8 @@ const theCard = (props) => {
                 <CardBody>
                     <CardTitle className="cardTitle">{props.title}</CardTitle>
                         <p>{props.desc}</p>
-                        <CardLink href={props.deployed}>Deployed</CardLink>
-                        <CardLink href={props.repo}>Repo</CardLink>
+                        <CardLink target="_blank" href={props.deployed}>Deployed</CardLink>
+                        <CardLink target="_blank" href={props.repo}>Repo</CardLink>
                 </CardBody>
             </Card>
         </Container>

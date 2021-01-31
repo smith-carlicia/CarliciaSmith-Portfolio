@@ -32,7 +32,7 @@ function About () {
                     perfect user friendly web application. A quick learner, I'm well organized and 
                     calm under pressure looking to offer my skills to an innovative team.
                 </p>
-                <FontAwesomeIcon icon={faFile} href="../" />
+                <FontAwesomeIcon icon={faFile} href="Carlicia Smith Resume (4).pdf" />
             </Col>
             <Col sm="6">
             <Row>

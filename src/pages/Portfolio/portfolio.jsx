@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../../components/Card/Card';
 import { Col, Row } from "shards-react";
-import { Link } from "react-router-dom";
 
 
 function Portfolio() {

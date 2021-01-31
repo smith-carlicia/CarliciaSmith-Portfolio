@@ -5,13 +5,14 @@ import {
     CardTitle,
     CardImg,
     CardBody,
-    CardLink
+    CardLink,
+    Container
 } from "shards-react";
 
 const theCard = (props) => {
     return(
-        <>
-            <Card style={{ maxWidth: "300px" }}>
+        <Container>
+            <Card className="card" style={{ maxWidth: "300px" }}>
                 <CardImg src={props.img} />
                 <CardBody>
                     <CardTitle className="cardTitle">{props.title}</CardTitle>
@@ -20,7 +21,7 @@ const theCard = (props) => {
                         <CardLink href={props.repo}>Repo</CardLink>
                 </CardBody>
             </Card>
-        </>
+        </Container>
     )
 }
 

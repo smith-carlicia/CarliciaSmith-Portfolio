@@ -1,9 +1,6 @@
 import React from 'react';
-import { Nav, NavItem } from "shards-react";
+import { Nav, NavItem, NavLink} from "shards-react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-// import {Link, Router} from "react-router-dom";
-// import Home from '../../pages/Home/Home'
-// import About from '../../pages/About/About'
 import '../Nav/Nav.css';
 
 const Navigation=()=>{
@@ -13,20 +10,32 @@ const Navigation=()=>{
     return(
             <Nav>
                 <NavItem>
-                    <Link to="/">
-                        Home
-                    </Link>
+                    <NavLink>
+                        <Link to="/">
+                            Home
+                        </Link>
+                    </NavLink>
                 </NavItem>
                 <NavItem>
-                    <Link to="/About">About Me</Link>
+                    <NavLink>
+                        <Link to="About">
+                            About Me
+                        </Link>
+                    </NavLink>
                 </NavItem>
                 <NavItem>
-                    {/* <Link to="../../pages/Portfolio.jsx">Portfolio</Link> */}
+                    <NavLink>
+                        <Link to="Portfolio">
+                            Portfolio
+                        </Link>
+                    </NavLink>
                 </NavItem>
                 <NavItem>
-                    {/* <Link href="../../pages/Contact.jsx">
-                        Contact Me
-                    </Link> */}
+                    <NavLink>
+                        <Link to="Contact">
+                            Contact Me
+                        </Link>
+                    </NavLink>
                 </NavItem>
             </Nav>
     )

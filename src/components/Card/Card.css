@@ -7,3 +7,7 @@ a{
     color:black;
     font-size: 12px;
 }
+
+.card {
+    padding-right: 5rem;
+}

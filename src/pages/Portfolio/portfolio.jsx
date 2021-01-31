@@ -15,8 +15,8 @@ function Portfolio() {
                             title="Iss Tracker" 
                             img='/utils/Img/ISStracker-homepage-screenshot.png'
                             desc="Check out the current and five day forecast of the International Space Station passby times." />
-                            <Link  deploy="https://ewells89.github.io/group-22-project1/"></Link>
-                            // repo="https://github.com/smith-carlicia/group-22-project1.git"
+                            <Link to="https://ewells89.github.io/group-22-project1/"><button>Deployed</button></Link>
+                            <Link to="https://github.com/smith-carlicia/group-22-project1.git"><button>Repo</button></Link>
                         <Card 
                             title="Cyber Santa"
                             desc="Cyber Santa is an application any user can create, edit, delete and post their own personal or donations Christmas lists."  />

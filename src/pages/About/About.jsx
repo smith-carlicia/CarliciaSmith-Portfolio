@@ -25,7 +25,9 @@ function About () {
             <Row>
             <Col lg="4"></Col>
             <Col lg="4">
+            <header>
             <h2 className="about">About Me</h2>
+            </header>
             </Col>
             <Col lg="4"></Col>
             </Row>
@@ -47,7 +49,8 @@ function About () {
             <Row>
                 <Col sm="6"></Col>
                 <Col sm="3">
-                <a href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" className="resume" target="_blank">
+                    <h6>Download Resume Here:</h6>
                     <FontAwesomeIcon className="resumeIcon" icon={faFile}  />
                 </a>
                 </Col>

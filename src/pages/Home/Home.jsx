@@ -6,6 +6,7 @@ function Home() {
     return(
        <div>
            <Row>
+           {/* <header> */}
                <Col sm="7">
                <h1>Carlicia Smith</h1>
                </Col>
@@ -16,8 +17,10 @@ function Home() {
                 width="250"
                 height="236"
                />
+               
            </Col>
            {/* <Col sm="1"></Col> */}
+           {/* </header> */}
            </Row>
        </div>
     )

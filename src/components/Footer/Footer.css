@@ -1,6 +1,14 @@
 footer {
+    border-top: solid;
     border-color: gray;
     color: black;
     padding-top: 2rem;
-    justify-content: center;
+    /* justify-content: center; */
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 150%;
+  height:15%;
+  text-align: center;
+  margin-right: 20rem;
 }

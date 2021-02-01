@@ -13,12 +13,13 @@ const theCard = (props) => {
     return(
         <Container>
             <Card className="card" style={{ maxWidth: "300px" }}>
-                <CardImg src={props.img} />
+                <CardImg className="image" src={props.img} />
                 <CardBody>
                     <CardTitle className="cardTitle">{props.title}</CardTitle>
-                        <p>{props.desc}</p>
-                        <CardLink target="_blank" href={props.deployed}>Deployed</CardLink>
-                        <CardLink target="_blank" href={props.repo}>Repo</CardLink>
+                    <CardLink className="link" target="_blank" href={props.deployed}>Deployed</CardLink>
+                        <CardLink className="link" target="_blank" href={props.repo}>Repo</CardLink>
+                        
+                        <p>{props.desc}</p>     
                 </CardBody>
             </Card>
         </Container>

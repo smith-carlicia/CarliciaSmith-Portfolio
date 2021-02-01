@@ -14,6 +14,15 @@ function Portfolio() {
     return(
         <>
             <Row>
+            <Col lg="5"></Col>
+            <Col lg="4">
+            <header>
+            <h2 className="about">Portfolio</h2>
+            </header>
+            </Col>
+            <Col lg="3"></Col>
+            </Row>
+            <Row>
                 <Col sm="3"></Col>
                         <Card
                             title="Iss Tracker" 

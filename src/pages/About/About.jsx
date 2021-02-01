@@ -59,7 +59,7 @@ function About () {
             <Col sm="3"></Col>
             </Row>
            
-            <Row>
+            {/* <Row>
             <Col sm="4"></Col>
             <Col sm="4">
                 <h2>Technical Skills</h2>
@@ -73,18 +73,18 @@ function About () {
                     <IconHtml5 logoStyle="original" style={{ "blue" : "blue" }}/>
                     </a>
                 </Col>
-                {/* <Col  sm="2">
+                <Col  sm="2">
                     <IconCss3 width={100} height={100} />
-                </Col> */}
-                {/* <Col sm="2">
+                </Col> 
+                <Col sm="2">
                     <IconJavascript width={100} height={100} />
                 </Col>
                 <Col sm="2">
                     <IconJquery width={100} height={100} />
                 </Col>
-                <Col sm="1"></Col> */}
+                <Col sm="1"></Col> 
 
-            </Row>
+            </Row> */}
         </Container>
     )
 }

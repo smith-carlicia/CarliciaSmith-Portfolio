@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../pages/Contact/contact.css';
+import ContactInfo from '../../components/Contact/Contact';
 import {Container, Row, Col} from "shards-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -21,8 +21,8 @@ function Contact() {
             <Row>
                 <Col sm="3"></Col>
                 <Col sm="2">
-                <a onclick = "parent.location='mailto:smith.carlicia@gmail.com'" target="__blank">
-                <FontAwesomeIcon className="fontIcon" icon={faEnvelope} />
+                <a>
+                <ContactInfo href="smith.carlicia@gmail.com" />
                 </a>
                 </Col>
                 <Col sm="2">

@@ -21,7 +21,7 @@ function Contact() {
             <Row>
                 <Col sm="3"></Col>
                 <Col sm="2">
-                <a onClick = "parent.location='mailto:smith.carlicia@gmail.com" target="__blank">
+                <a onclick = "parent.location='mailto:smith.carlicia@gmail.com'" target="__blank">
                 <FontAwesomeIcon className="fontIcon" icon={faEnvelope} />
                 </a>
                 </Col>

@@ -45,7 +45,7 @@ function About () {
             <Row>
                 <Col sm="6"></Col>
                 <Col sm="3">
-                <a href="../../utils/Img/Carlicia Smith (4).pdf" target="_blank">
+                <a href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" target="_blank">
                     <FontAwesomeIcon className="resumeIcon" icon={faFile}  />
                 </a>
                 </Col>

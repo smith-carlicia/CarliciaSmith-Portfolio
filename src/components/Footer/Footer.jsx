@@ -3,8 +3,10 @@ import React from 'react'
 function Footer() {
 
     return(
-        <div className="container">
-            <p>Carlicia Smith</p>
-        </div>
+        <footer className="container">
+            <p> Made by Carlicia Smith</p>
+        </footer>
     )
 }
+
+export default Footer;

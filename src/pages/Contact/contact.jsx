@@ -14,7 +14,7 @@ function Contact() {
             <Row>
             <Col sm="4"></Col>
             <Col sm="4">
-                <h1 className="contactInfo">Contact</h1>
+                <h2 className="contactInfo">Contact</h2>
             </Col>
             <Col sm="4"></Col>
             </Row>
@@ -22,17 +22,17 @@ function Contact() {
                 <Col sm="3"></Col>
                 <Col sm="2">
                 <a onClick = "parent.location='mailto:smith.carlicia@gmail.com" target="__blank">
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon className="fontIcon" icon={faEnvelope} />
                 </a>
                 </Col>
                 <Col sm="2">
                 <a href="https://www.linkedin.com/in/carlicia-smith-613194b4/" target="__blank" >
-                    <FontAwesomeIcon icon={faLinkedin}  />
+                    <FontAwesomeIcon className="fontIcon"  icon={faLinkedin}  />
                 </a>
                 </Col>
                 <Col sm="2">
                 <a href="https://github.com/smith-carlicia" target="__blank">
-                    <FontAwesomeIcon icon={faGithub}/>    
+                    <FontAwesomeIcon className="fontIcon" icon={faGithub}/>    
                 </a>
                 </Col>
                 <Col sm="3"></Col>

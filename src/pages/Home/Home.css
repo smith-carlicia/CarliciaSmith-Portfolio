@@ -1,7 +1,12 @@
-/* .background {
-    background-image: url("plant-bkg.jpg");
-} */
+.background {
+    background-image: url("../../utils/Img/plant-bkg.jpg");
+}
 
-header {
-    color: aqua;
+img {
+    margin-top: 7rem;
+}
+
+h1 {
+    padding-top: 11rem;
+    margin-left: 10rem;
 }

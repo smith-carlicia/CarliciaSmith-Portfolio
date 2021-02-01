@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, NavItem, NavLink} from "shards-react";
 import { Link } from "react-router-dom";
-import '../Nav/Nav.css';
+import './Nav.css';
 
 const Navigation=()=>{
     

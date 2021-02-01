@@ -3,6 +3,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/portfolio'
 import Contact from './pages/Contact/contact'
+import Footer from './components/Footer/Footer'
 import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "shards-ui/dist/css/shards.min.css";
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </>
     </BrowserRouter>
     </>

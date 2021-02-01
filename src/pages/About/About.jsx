@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../pages/About/About.css'
+import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import DevIcon from "devicon-react-svg";
@@ -25,7 +25,7 @@ function About () {
             <Row>
             <Col lg="4"></Col>
             <Col lg="4">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             </Col>
             <Col lg="4"></Col>
             </Row>
@@ -45,7 +45,9 @@ function About () {
             <Row>
                 <Col sm="6"></Col>
                 <Col sm="3">
-                    <FontAwesomeIcon icon={faFile} href="Carlicia Smith Resume (4).pdf" />
+                <a onClick="../../utils/Img/Carlicia Smith Resume (4).pdf" target="_blank">
+                    <FontAwesomeIcon icon={faFile}  />
+                </a>
                 </Col>
                 <Col sm="3"></Col>
             </Row>
@@ -54,7 +56,7 @@ function About () {
             <Row>
             <Col sm="4"></Col>
             <Col sm="4">
-                <h1>Technical Skills</h1>
+                <h2>Technical Skills</h2>
             </Col>
             <Col sm="4"></Col>
             </Row>

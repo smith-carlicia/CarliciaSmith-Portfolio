@@ -21,11 +21,11 @@ import { Container, Row, Col, } from "shards-react";
 function About () {
 
     return(
-        <Container className="about">
+        <Container>
             <Row>
             <Col lg="4"></Col>
             <Col lg="4">
-            <h2>About Me</h2>
+            <h2 className="about">About Me</h2>
             </Col>
             <Col lg="4"></Col>
             </Row>
@@ -45,14 +45,15 @@ function About () {
             <Row>
                 <Col sm="6"></Col>
                 <Col sm="3">
-                <a onClick="../../utils/Img/Carlicia Smith Resume (4).pdf" target="_blank">
-                    <FontAwesomeIcon icon={faFile}  />
+                <a href="../../utils/Img/Carlicia Smith (4).pdf" target="_blank">
+                    <FontAwesomeIcon className="resumeIcon" icon={faFile}  />
                 </a>
                 </Col>
                 <Col sm="3"></Col>
             </Row>
             <Col sm="3"></Col>
             </Row>
+           
             <Row>
             <Col sm="4"></Col>
             <Col sm="4">

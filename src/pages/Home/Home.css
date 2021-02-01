@@ -1,5 +1,7 @@
-.background {
+body {
     background-image: url("../../utils/Img/plant-bkg.jpg");
+    background-attachment: fixed;
+    background-size: 1380px 700px;
 }
 
 img {
@@ -8,5 +10,5 @@ img {
 
 h1 {
     padding-top: 11rem;
-    margin-left: 10rem;
+    margin-left: 24rem;
 }

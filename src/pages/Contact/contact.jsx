@@ -12,8 +12,8 @@ function Contact() {
     return(
         <Container className="container">
             <Row>
-            <Col sm="4"></Col>
-            <Col sm="4">
+            <Col sm="5"></Col>
+            <Col sm="3">
                 <h2 className="contactInfo">Contact</h2>
             </Col>
             <Col sm="4"></Col>

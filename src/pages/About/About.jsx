@@ -16,7 +16,7 @@ import IconHtml5 from 'react-devicon/html5/plain-wordmark'
 // import IconBootstrap from 'react-devicon/bootstrap/plain-wordmark'
 // import IconHeroku from 'react-devicon/heroku/plain-wordmark'
 
-import { Container, Row, Col, } from "shards-react";
+import { Container, Row, Col } from "shards-react";
 
 function About () {
 
@@ -42,6 +42,8 @@ function About () {
                     calm under pressure looking to offer my skills to an innovative team.
                 </p>
             </Col>
+            
+
             <Row>
                 <Col sm="6"></Col>
                 <Col sm="3">

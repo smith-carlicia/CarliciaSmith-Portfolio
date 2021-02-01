@@ -2,4 +2,5 @@ footer {
     border-color: gray;
     color: black;
     padding-top: 2rem;
+    justify-content: center;
 }

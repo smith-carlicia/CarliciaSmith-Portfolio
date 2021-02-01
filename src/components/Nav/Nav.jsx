@@ -11,29 +11,29 @@ const Navigation=()=>{
             <Nav>
                 <NavItem>
                     <NavLink>
-                        <Link to="/">
+                        <Link className="link" to="/">
                             Home
                         </Link>
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <Link to="About">
+                        <Link className="link" to="About">
                             About Me
                         </Link>
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <Link to="Portfolio">
+                        <Link className="link" to="Portfolio">
                             Portfolio
                         </Link>
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <Link to="Contact">
-                            Contact Me
+                        <Link className="link" to="Contact">
+                            Contact
                         </Link>
                     </NavLink>
                 </NavItem>

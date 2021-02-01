@@ -1,3 +1,7 @@
-Link:hover{
-    color:red;
+.link:hover{
+    color: darkgreen;
+}
+
+.link{
+    color: black;
 }

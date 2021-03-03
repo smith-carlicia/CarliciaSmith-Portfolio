@@ -39,13 +39,14 @@ function About () {
                 <Grid md={6} className="paraCard">
                     <h2 className="about">About Me</h2>
                             <p className="para">
-                                My name is Carlicia but people call me Carly for short. I'm currently a Web 
-                                Development student at Georgia Tech Coding Bootcamp. I have experience with HTML, 
+                                My name is Carlicia but people call me Carly for short. I'm a Full Stack Web Developer with experience using HTML, 
                                 CSS, R, Bootstrap, JavaScript, jQuery, Node.js, Express.js, mySql, MongoDb, and React. As a former sales and marketing 
                                 intern, I will leverage my conceptually conscious brand management and marketing 
                                 research skills to go above and beyond in effectively collaborating to create the 
                                 perfect user friendly web application. A quick learner, I'm well organized and 
                                 calm under pressure looking to offer my skills to an innovative team.
+
+                                In my spare time, I love to go to parks with my daughter and travel. 
                             </p>
                 </Grid>
                 <Grid md={2}></Grid>

@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://smith-carlicia.github.io/react-portfolio",
+  "homepage": "https://smith-carlicia.github.io/carlicia-smith",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",

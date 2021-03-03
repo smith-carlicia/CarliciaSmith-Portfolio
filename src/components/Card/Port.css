@@ -1,0 +1,31 @@
+.cardTitle{
+    color: black;
+    font-size: 12px;
+}
+
+.link{
+    color: chocolate;
+    font-size: 8px;
+    /* margin-top: 2rem; */
+    margin-bottom: 5px;
+}
+
+.card {
+    margin-right: 25px;
+    margin-bottom: 2rem;
+    height: 425px;
+}
+
+.description {
+    color:black;
+}
+
+.image {
+    width: 425px;
+    height: 200px;
+    margin-top: 0px;
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: chocolate;
+}

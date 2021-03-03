@@ -1,10 +1,57 @@
 .contactInfo {
     justify-content: center;
-    padding-top: 3rem;
+    margin-left: 1px;
+    padding-top: 2rem;
+    color: white;
 }
 
 .fontIcon {
-    margin-top: 5rem;
-    font-size: 5rem;
-    color: chocolate;
+    margin-top: 2rem;
+    margin-right: 6rem;
+    padding-left: 139px;
+    font-size: 30px;
+    color: rosybrown;
+}
+
+.contactcrd {
+    margin-top: 65px;
+    margin-right: 75px;
+    width: 319px;
+    height:200px;
+    color: darkolivegreen;
+    border-radius: 0;
+}
+
+.emhead {
+    margin-left: 129px;
+    color: darkolivegreen;
+}
+
+.ctchead {
+    margin-left: 116px;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+.gthead {
+    margin-left: 125px;   
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+.em {
+    padding-left: 90px;
+    color: darkolivegreen;
+}
+
+.linked {
+    padding-left: 50px;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.gt {
+    padding-left: 80px;
+    text-decoration: none;
+    color: darkolivegreen;
 }

@@ -1,92 +1,244 @@
 import React from 'react'
 import './About.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
-import DevIcon from "devicon-react-svg";
-import IconHtml5 from 'react-devicon/html5/plain-wordmark'
-// import IconCss3 from 'react-devicon/css3/plain-wordmark'
-// import IconJavascript from 'react-devicon/javascript/plain'
-// import IconJquery from 'react-devicon/jquery/plain-wordmark'
-// import IconNodejs from 'react-devicon/nodejs/plain-wordmark'
-// import IconExpress from 'react-devicon/express/original'
-// import IconMysql from 'react-devicon/mysql/plain-wordmark'
-// import IconSequelize from 'react-devicon/sequelize/plain'
-// import IconMongodb from 'react-devicon/mongodb/plain-wordmark'
-// import IconReact from 'react-devicon/react/original-wordmark'
-// import IconBootstrap from 'react-devicon/bootstrap/plain-wordmark'
-// import IconHeroku from 'react-devicon/heroku/plain-wordmark'
+import { Grid } from '@material-ui/core';
+import {    DiHtml5, 
+            DiCss3, 
+            DiJsBadge, 
+            DiJqueryLogo, 
+            DiNodejs, 
+            DiMysql, 
+            DiMongodb, 
+            DiReact, 
+            DiBootstrap, 
+            DiGithubBadge, 
+            DiHeroku} from "react-icons/di";
 
-import { Container, Row, Col } from "shards-react";
 
 function About () {
 
     return(
-        <Container>
-            <Row>
-            <Col lg="4"></Col>
-            <Col lg="4">
-            <header>
-            <h2 className="about">About Me</h2>
-            </header>
-            </Col>
-            <Col lg="4"></Col>
-            </Row>
-            <Row>
-            <Col sm="3"></Col>
-            <Col sm="6">
-                <p>
-                    My name is Carlicia but people call me Carly for short. I'm currently a Web 
-                    Development student at Georgia Tech Coding Bootcamp. I have experience with HTML, 
-                    CSS, R, Bootstrap, JavaScript, jQuery and AJAX. As a former sales and marketing 
-                    intern, I will leverage my conceptually conscious brand management and marketing 
-                    research skills to go above and beyond in effectively collaborating to create the 
-                    perfect user friendly web application. A quick learner, I'm well organized and 
-                    calm under pressure looking to offer my skills to an innovative team.
-                </p>
-            </Col>
-            
-
-            <Row>
-                <Col sm="6"></Col>
-                <Col sm="3">
-                <a href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" className="resume" target="_blank">
-                    <h6>Download Resume Here:</h6>
-                    <FontAwesomeIcon className="resumeIcon" icon={faFile}  />
-                </a>
-                </Col>
-                <Col sm="3"></Col>
-            </Row>
-            <Col sm="3"></Col>
-            </Row>
-           
-            {/* <Row>
-            <Col sm="4"></Col>
-            <Col sm="4">
-                <h2>Technical Skills</h2>
-            </Col>
-            <Col sm="4"></Col>
-            </Row>
-            <Row>
-                <Col sm="1"></Col>
-                <Col sm="2">
-                    <a className="devicon"> 
-                    <IconHtml5 logoStyle="original" style={{ "blue" : "blue" }}/>
+        <Grid className="body">
+            <Grid container 
+                direction="row"   
+                justify="center"
+                alignItems="center"
+            >
+            </Grid>
+            <Grid container 
+                direction="row"   
+                justify="center"
+                alignItems="center"
+            >
+                <Grid md={4}>
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHlSIGXxvUVSg/profile-displayphoto-shrink_200_200/0/1579299268559?e=1619654400&v=beta&t=QfLyxsoxZC6iwt2ZXJYBgR9ufo-yEJv85nF_J4yr51U" 
+                    className="img"
+                    // class="rounded-circle"
+                    alt="carly-pro"
+                    width="250"
+                    height="236" />
+                </Grid>
+                <Grid md={6} className="paraCard">
+                    <h2 className="about">About Me</h2>
+                            <p className="para">
+                                My name is Carlicia but people call me Carly for short. I'm currently a Web 
+                                Development student at Georgia Tech Coding Bootcamp. I have experience with HTML, 
+                                CSS, R, Bootstrap, JavaScript, jQuery, Node.js, Express.js, mySql, MongoDb, and React. As a former sales and marketing 
+                                intern, I will leverage my conceptually conscious brand management and marketing 
+                                research skills to go above and beyond in effectively collaborating to create the 
+                                perfect user friendly web application. A quick learner, I'm well organized and 
+                                calm under pressure looking to offer my skills to an innovative team.
+                            </p>
+                </Grid>
+                <Grid md={2}></Grid>
+            </Grid>
+            <Grid container 
+                direction="column"   
+                justify="center"
+                alignItems="center"
+            >
+                <Grid className="workcard">
+                    <header>
+                        <h2 className="workPower">Workplace Strengths</h2>
+                    </header>
+                    <dl className="powers">
+                        <dt className="power">Motivated self-starter</dt>
+                        <dt className="power">Analytical problem solver</dt>
+                        <dt className="power">Attention to detail</dt>
+                    </dl>
+                </Grid>
+            </Grid>
+            <Grid container 
+                direction="row"   
+                justify="center"
+                alignItems="center"
+            >
+                <header>
+                    <h2 className="tech">Technical Skills</h2>
+                </header>
+            </Grid>
+            <Grid 
+                container 
+                direction="row"   
+                justify="space-evenly"
+                alignItems="center"
+            >
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiHtml5 />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiCss3 />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiJsBadge />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiJqueryLogo />
+                </Grid>
+            </Grid>
+             <Grid 
+                container 
+                direction="row"
+                alignItems="center"
+            >
+                <Grid item>
+                    <h4 className="htmlName">HTML</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="cssName">CSS</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="jsName">JavaScript</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="jqueryName">jQuery</h4>
+                </Grid>
+            </Grid>
+            <Grid 
+                container 
+                direction="row"   
+                justify="space-evenly"
+                alignItems="center"
+            >
+                 <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiNodejs />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiMysql/>
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiMongodb />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiReact />
+                </Grid>
+            </Grid>
+             <Grid 
+                container 
+                direction="row"
+                alignItems="center"
+            >
+                <Grid item>
+                    <h4 className="nodeName">Node.js</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="sqlName">mySQL</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="mongoName">MongoDB</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="reactName">React.js</h4>
+                </Grid>
+            </Grid>
+            <Grid 
+                container 
+                direction="row"   
+                justify="space-evenly"
+                alignItems="center"
+            >
+                 <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiBootstrap />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiGithubBadge />
+                </Grid>
+                <Grid 
+                    item
+                    className="icon"
+                >
+                    <DiHeroku />
+                </Grid>
+            </Grid>
+              <Grid 
+                container 
+                direction="row"
+                alignItems="center"
+            >
+                <Grid item>
+                    <h4 className="bootstrapName">Bootstrap</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="githubName">GitHub</h4>
+                </Grid>
+                <Grid item>
+                    <h4 className="herokuName">Heroku</h4>
+                </Grid>
+            </Grid>
+            <Grid 
+                container 
+                className="resume"
+                direction="column"   
+                justify="center"
+                alignItems="center"
+            >
+                <Grid md={8}></Grid>
+                <Grid md={3}>                    
+                    <h6
+                        className="resumeHeader"
+                    >
+                        Download Resume Here:
+                    </h6>
+                </Grid>
+                {/* <Grid item md={1}>
+                    <a href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" 
+                        className="resume" 
+                        target="_blank">
+                            <FontAwesomeIcon className="resumeIcon" icon={faFile}  />
                     </a>
-                </Col>
-                <Col  sm="2">
-                    <IconCss3 width={100} height={100} />
-                </Col> 
-                <Col sm="2">
-                    <IconJavascript width={100} height={100} />
-                </Col>
-                <Col sm="2">
-                    <IconJquery width={100} height={100} />
-                </Col>
-                <Col sm="1"></Col> 
-
-            </Row> */}
-        </Container>
+                </Grid> */}
+            </Grid>
+        </Grid>    
     )
-}
+};
 
 export default About;

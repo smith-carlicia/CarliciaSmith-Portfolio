@@ -1,7 +1,30 @@
+.carly {
+    padding-right: 870px;
+    color: rosybrown;
+    font-weight: 400;
+}
+.reshead {
+ /* margin-left: 950px; */
+ padding-bottom: 5px;
+ color: rosybrown;
+ font-weight: 400;
+} 
+
+.resume {
+    margin-left: 20px;
+    font-size: xx-small;
+    text-decoration: none;
+    color: rosybrown;
+}
+
+
 .link:hover{
     color: darkgreen;
 }
 
 .link{
-    color: black;
+    color: rosybrown;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 400;
 }

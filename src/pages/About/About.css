@@ -1,6 +1,90 @@
+/* .body {
+    background-color: ghostwhite;
+} */
+
 .about {
+    margin-left: 245px;
+    color: white;
+}
+
+.img {
+    margin-left: 135px;
+    margin-bottom: 250px;
+    border-style: double;
+    border-color: rosybrown;
+    border-width: 9px;
+}
+
+.location {
+    color: white;
+    margin-left: 13rem;
+}
+
+.paraCard {
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* margin-top: 150px; */
+    margin-bottom: 180px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background:burlywood;
+    /* background: rgba(192,192,192,0.7); */
+    height: 520px;
+    width: 625px;
+}
+
+.para {
+    color:whitesmoke;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* .workcard {
+    margin-top: 200px;
+    margin-bottom: 150px;
+} */
+
+.workPower {
+    padding-right: 100px;
+    padding-left: 100px;  
+}
+
+.power {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.tech {
     justify-content: center;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.workPower {
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 12px;
+    color: white;
+}
+
+/* workplace strengths cirlce */
+.powers {
+    background: rgb(210,180,140, 0.9);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 21px;
+    margin-bottom: 8rem;
+}
+
+/* workplace strengths */
+.power {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 15px;
 }
 
 .resumeIcon {
@@ -9,21 +93,89 @@
 }
 
 .resume {
-    margin-right: 5rem;
+    margin-right: 450px;
 }
 
-p {
-    padding-top:1rem;
-    padding-bottom: 10rem;
-    color: black;
+
+/* technical skills icons */
+
+.icon {
+    border-spacing: 200px;
+    color: white;
+    font-size: 3rem;
+    background: rosybrown;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 21px;
 }
 
-header {
-    color: chocolate;
+
+/* icon names */
+
+.htmlName {
+    padding-left: 195px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: white;
 }
 
-/* .card {
-    background-color: white;
-    opacity: 0.5;
-    border-radius: 6px;
-} */
+.cssName {
+    padding-left: 241px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.jsName {
+    padding-left: 223px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.jqueryName {
+    padding-left: 209px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.nodeName {
+    padding-left: 187px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.sqlName {
+    padding-left: 225px;
+    margin-bottom: 5rem; 
+    color: white;
+}
+
+.mongoName {
+    padding-left: 211px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.reactName {
+    padding-left: 205px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.bootstrapName {
+    padding-left: 250px;
+    color: white;
+}
+
+.githubName{
+    padding-left: 281px;
+    color: white;
+}
+
+.herokuName {
+    padding-left: 296px;
+    color: white;
+}

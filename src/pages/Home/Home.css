@@ -1,14 +1,31 @@
 body {
-    background-image: url("../../utils/Img/plant-bkg.jpg");
+    background-image: url("https://images.unsplash.com/photo-1512737594936-baf87e4b0924?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
     background-attachment: fixed;
     background-size: 1380px 700px;
 }
 
 img {
     margin-top: 7rem;
+    border-radius: 50%;
 }
 
 h1 {
     padding-top: 11rem;
-    margin-left: 24rem;
+    margin-left: 40rem;
+    color:chocolate;
+    font-family: 'M Plus 1p';
+    font-weight: 600;
+}
+
+.roles {
+    padding-left: 625px;
+    color: rosybrown;
+}
+
+.resume {
+    color:white;
+}
+
+.resumeIcon {
+    color:white;
 }

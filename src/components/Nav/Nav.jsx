@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavItem, NavLink} from "shards-react";
+import { Toolbar } from '@material-ui/core';
 import { Link } from "react-router-dom";
 import './Nav.css';
 
@@ -8,36 +8,21 @@ const Navigation=()=>{
     // const location = useLocation();
 
     return(
-            <Nav>
-                <NavItem>
-                    <NavLink>
-                        <Link className="link" to="/">
-                            Home
-                        </Link>
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink>
-                        <Link className="link" to="About">
-                            About Me
-                        </Link>
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink>
-                        <Link className="link" to="Portfolio">
-                            Portfolio
-                        </Link>
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink>
-                        <Link className="link" to="Contact">
-                            Contact
-                        </Link>
-                    </NavLink>
-                </NavItem>
-            </Nav>
+            <Toolbar direction="row" className="navi">
+                <h3 className="carly">Carlicia</h3>
+                <Link className="link" to="/">
+                    <h5>Home</h5>
+                </Link>
+                <Link className="link" to="About">
+                    <h5>About</h5>
+                </Link>
+                <Link className="link" to="Portfolio">
+                    <h5>Portfolio</h5>
+                </Link>
+                <Link className="link" to="Contact">
+                    <h5>Contact</h5>
+                </Link>
+            </Toolbar> 
     )
 }
 export default Navigation;

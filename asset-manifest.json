@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/carlicia-smith/static/css/main.0dc11b13.chunk.css",
-    "main.js": "/carlicia-smith/static/js/main.b10bea32.chunk.js",
-    "main.js.map": "/carlicia-smith/static/js/main.b10bea32.chunk.js.map",
+    "main.js": "/carlicia-smith/static/js/main.76ebdee2.chunk.js",
+    "main.js.map": "/carlicia-smith/static/js/main.76ebdee2.chunk.js.map",
     "runtime-main.js": "/carlicia-smith/static/js/runtime-main.3b8678d0.js",
     "runtime-main.js.map": "/carlicia-smith/static/js/runtime-main.3b8678d0.js.map",
     "static/js/2.c280aa1f.chunk.js": "/carlicia-smith/static/js/2.c280aa1f.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.3b8678d0.js",
     "static/js/2.c280aa1f.chunk.js",
     "static/css/main.0dc11b13.chunk.css",
-    "static/js/main.b10bea32.chunk.js"
+    "static/js/main.76ebdee2.chunk.js"
   ]
 }

@@ -1,33 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.540dbc21.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.1795f5a1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.1795f5a1.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.40af2183.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.40af2183.js.map",
-    "static/css/2.1e4e1538.chunk.css": "/react-portfolio/static/css/2.1e4e1538.chunk.css",
-    "static/js/2.37b8e847.chunk.js": "/react-portfolio/static/js/2.37b8e847.chunk.js",
-    "static/js/2.37b8e847.chunk.js.map": "/react-portfolio/static/js/2.37b8e847.chunk.js.map",
-    "static/js/3.70175690.chunk.js": "/react-portfolio/static/js/3.70175690.chunk.js",
-    "static/js/3.70175690.chunk.js.map": "/react-portfolio/static/js/3.70175690.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.6da1fbe3.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f2cb09a3.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f2cb09a3.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.d9bc2617.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d9bc2617.js.map",
+    "static/js/2.c280aa1f.chunk.js": "/react-portfolio/static/js/2.c280aa1f.chunk.js",
+    "static/js/2.c280aa1f.chunk.js.map": "/react-portfolio/static/js/2.c280aa1f.chunk.js.map",
+    "static/js/3.4923a875.chunk.js": "/react-portfolio/static/js/3.4923a875.chunk.js",
+    "static/js/3.4923a875.chunk.js.map": "/react-portfolio/static/js/3.4923a875.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/2.1e4e1538.chunk.css.map": "/react-portfolio/static/css/2.1e4e1538.chunk.css.map",
-    "static/css/main.540dbc21.chunk.css.map": "/react-portfolio/static/css/main.540dbc21.chunk.css.map",
-    "static/js/2.37b8e847.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.37b8e847.chunk.js.LICENSE.txt",
-    "static/media/Html5PlainWordmark.svg": "/react-portfolio/static/media/Html5PlainWordmark.9be87547.svg",
+    "static/css/main.6da1fbe3.chunk.css.map": "/react-portfolio/static/css/main.6da1fbe3.chunk.css.map",
+    "static/js/2.c280aa1f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c280aa1f.chunk.js.LICENSE.txt",
     "static/media/ISStracker-homepage-screenshot.95096fb2.png": "/react-portfolio/static/media/ISStracker-homepage-screenshot.95096fb2.png",
     "static/media/Readme-generator-screenshot.5971a153.png": "/react-portfolio/static/media/Readme-generator-screenshot.5971a153.png",
     "static/media/Team-profile-generator-screenshot.9cd582c6.png": "/react-portfolio/static/media/Team-profile-generator-screenshot.9cd582c6.png",
     "static/media/cyber-santa-homepage.74d878e2.png": "/react-portfolio/static/media/cyber-santa-homepage.74d878e2.png",
     "static/media/ft-homepage.94b0426d.png": "/react-portfolio/static/media/ft-homepage.94b0426d.png",
-    "static/media/note-taker-screenshot.c465157f.png": "/react-portfolio/static/media/note-taker-screenshot.c465157f.png",
-    "static/media/Home.css": "/react-portfolio/static/media/plant-bkg.6b780c81.jpg"
+    "static/media/note-taker-screenshot.c465157f.png": "/react-portfolio/static/media/note-taker-screenshot.c465157f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40af2183.js",
-    "static/css/2.1e4e1538.chunk.css",
-    "static/js/2.37b8e847.chunk.js",
-    "static/css/main.540dbc21.chunk.css",
-    "static/js/main.1795f5a1.chunk.js"
+    "static/js/runtime-main.d9bc2617.js",
+    "static/js/2.c280aa1f.chunk.js",
+    "static/css/main.6da1fbe3.chunk.css",
+    "static/js/main.f2cb09a3.chunk.js"
   ]
 }

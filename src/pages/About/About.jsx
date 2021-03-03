@@ -32,7 +32,6 @@ function About () {
                 <Grid md={4}>
                     <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHlSIGXxvUVSg/profile-displayphoto-shrink_200_200/0/1579299268559?e=1619654400&v=beta&t=QfLyxsoxZC6iwt2ZXJYBgR9ufo-yEJv85nF_J4yr51U" 
                     className="img"
-                    // class="rounded-circle"
                     alt="carly-pro"
                     width="250"
                     height="236" />

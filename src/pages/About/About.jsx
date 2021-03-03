@@ -40,7 +40,7 @@ function About () {
                     <h2 className="about">About Me</h2>
                             <p className="para">
                                 My name is Carlicia but people call me Carly for short. I'm a Full Stack Web Developer with experience using HTML, 
-                                CSS, R, Bootstrap, JavaScript, jQuery, Node.js, Express.js, mySql, MongoDb, and React. As a former sales and marketing 
+                                CSS, R, Bootstrap, JavaScript, jQuery, Node.js, Express.js, mySql, MongoDb, and React.js. As a former sales and marketing 
                                 intern, I will leverage my conceptually conscious brand management and marketing 
                                 research skills to go above and beyond in effectively collaborating to create the 
                                 perfect user friendly web application. A quick learner, I'm well organized and 

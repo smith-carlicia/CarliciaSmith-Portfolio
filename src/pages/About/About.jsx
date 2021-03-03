@@ -77,6 +77,7 @@ function About () {
             </Grid>
             <Grid 
                 container 
+                className="firstrow"
                 direction="row"   
                 justify="space-evenly"
                 alignItems="center"

@@ -46,7 +46,7 @@ img {
 
 .seRoles {
     /* padding-left: 50px; */
-    color: #3B0404;
+    color: dimgray;
     font-size: 25px;
     padding-left: 345px;
 }
@@ -62,6 +62,6 @@ img {
     margin-left: 530px;
 }
 
-.resumeIcon {
+/* .resumeIcon {
     color:white;
-}
+} */

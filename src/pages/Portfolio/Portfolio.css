@@ -1,4 +1,51 @@
+.body {
+    background-color: white;
+}
+
+.rowPad {
+    margin-bottom: 10rem;
+}
+
+.carousel {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
 .about {
-    padding-right: 275px;
-    padding-bottom: 5px;
+    /* margin-right: 400px; */
+    padding-bottom: 2rem;
+    justify-content: center;
+    color: rosybrown;
+}
+
+.carousel {
+    padding-left: 200px;
+}
+
+.title {
+    padding-left: 15px;
+    font-family: 'M Plus 1p';
+    font-weight: 800;
+}
+
+.lang {
+    padding-left: 15px;
+    font-family: 'M Plus 1p';
+    font-weight: 800;
+}
+
+.protech {
+    font-size: 3rem;
+    color: rosybrown;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.desc {
+    padding-left: 15px;
+    margin-right: 31px;
+    font-family: 'M Plus 1p';
+    font-weight: 800;
 }

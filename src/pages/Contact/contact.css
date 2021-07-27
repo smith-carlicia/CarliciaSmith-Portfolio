@@ -12,9 +12,9 @@
 }
 
 .fontIcon {
-    margin-top:5px;
-    /* margin-right: 5px; */
-    margin-left: 140px;
+    margin-top:45px;
+    padding-right: 5px;
+    margin-left: 130px;
     color: white;
     font-size: 3rem;
 }
@@ -30,37 +30,40 @@
 } 
 
 .emhead {
+    margin-top: 20px;
     margin-left: 120px;
     color: black;
 }
 
 .ctchead {
+    margin-top: 20px;
     margin-left: 104px;
     color: black;
     text-decoration: none;
 }
 
 .gthead {
+    margin-top: 20px;
     margin-left: 105px;   
     color: black;
     text-decoration: none;
 }
 
 .em {
-    padding-left: 32px;
+    padding-left: 52px;
     color: black;
     font-size: 15px;
 }
 
 .linked {
-    padding-left: 50px;
+    padding-left: 52px;
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
 
 .gt {
-    padding-left: 80px;
+    padding-left: 50px;
     text-decoration: none;
     color: black;
     font-size: 15px;

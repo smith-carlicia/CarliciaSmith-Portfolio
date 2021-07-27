@@ -22,41 +22,46 @@
 .contactcrd {
     margin-top: 65px;
     padding-right: 65px;
-    width: 319px;
+    width: 300px;
     height:200px;
     border-radius: 0;
+    background-color: #BC8668;
+    opacity: 0.7;
 } 
 
 .emhead {
-    margin-left: 129px;
+    margin-left: 120px;
     color: rosybrown;
 }
 
 .ctchead {
-    margin-left: 116px;
+    margin-left: 104px;
     color: rosybrown;
     text-decoration: none;
 }
 
 .gthead {
-    margin-left: 125px;   
+    margin-left: 105px;   
     color: rosybrown;
     text-decoration: none;
 }
 
 .em {
-    padding-left: 90px;
+    padding-left: 32px;
     color: rosybrown;
+    font-size: 15px;
 }
 
 .linked {
     padding-left: 50px;
     text-decoration: none;
     color: rosybrown;
+    font-size: 15px;
 }
 
 .gt {
     padding-left: 80px;
     text-decoration: none;
     color: rosybrown;
+    font-size: 15px;
 }

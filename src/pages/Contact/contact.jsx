@@ -32,7 +32,8 @@ class Contact extends Component {
                     </Row>
 
                     <Row>
-                        <Col md={3}>
+                        <Col md={1} />
+                        <Col md={1}>
                             <Card 
                                 className="contactcrd">
                                 <a>
@@ -51,7 +52,8 @@ class Contact extends Component {
                             </Card>
                         </Col>
 
-                        <Col md={3}>
+                        <Col md={2} />
+                        <Col md={1}>
                             <Card 
                                 className="contactcrd">
                                 <a 
@@ -72,7 +74,8 @@ class Contact extends Component {
                             </Card>
                         </Col>
 
-                        <Col md={3}>
+                        <Col md={2} />
+                        <Col md={2}>
                             <Card 
                                 className="contactcrd">
                                 <a 
@@ -95,6 +98,7 @@ class Contact extends Component {
                                 </h6>  
                             </Card>
                         </Col>
+                        <Col md={1} />
                     </Row>
 
             </Container>

@@ -1,56 +1,62 @@
+/* body {
+    background-color: peachpuff;
+} */
+
 .contactInfo {
     justify-content: center;
+    font-family: 'M Plus 1p';
     margin-left: 1px;
     padding-top: 2rem;
-    color: white;
+    color:rosybrown;
+    font-weight: 800;
 }
 
 .fontIcon {
-    margin-top: 2rem;
-    margin-right: 6rem;
-    padding-left: 139px;
-    font-size: 30px;
-    color: rosybrown;
+    margin-top:5px;
+    /* margin-right: 5px; */
+    margin-left: 140px;
+    color: dimgray;
+    font-size: 3rem;
 }
 
 .contactcrd {
     margin-top: 65px;
-    margin-right: 75px;
+    padding-right: 65px;
     width: 319px;
     height:200px;
     border-radius: 0;
-}
+} 
 
 .emhead {
     margin-left: 129px;
-    color: darkolivegreen;
+    color: rosybrown;
 }
 
 .ctchead {
     margin-left: 116px;
-    color: darkolivegreen;
+    color: rosybrown;
     text-decoration: none;
 }
 
 .gthead {
     margin-left: 125px;   
-    color: darkolivegreen;
+    color: rosybrown;
     text-decoration: none;
 }
 
 .em {
     padding-left: 90px;
-    color: darkolivegreen;
+    color: rosybrown;
 }
 
 .linked {
     padding-left: 50px;
     text-decoration: none;
-    color: darkolivegreen;
+    color: rosybrown;
 }
 
 .gt {
     padding-left: 80px;
     text-decoration: none;
-    color: darkolivegreen;
+    color: rosybrown;
 }

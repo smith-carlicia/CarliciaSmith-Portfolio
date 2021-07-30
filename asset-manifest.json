@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CarliciaSmith-Portfolio/static/css/main.2feb65e2.chunk.css",
-    "main.js": "/CarliciaSmith-Portfolio/static/js/main.0bf3f076.chunk.js",
-    "main.js.map": "/CarliciaSmith-Portfolio/static/js/main.0bf3f076.chunk.js.map",
+    "main.css": "/CarliciaSmith-Portfolio/static/css/main.e2ca3b30.chunk.css",
+    "main.js": "/CarliciaSmith-Portfolio/static/js/main.0c9bcde8.chunk.js",
+    "main.js.map": "/CarliciaSmith-Portfolio/static/js/main.0c9bcde8.chunk.js.map",
     "runtime-main.js": "/CarliciaSmith-Portfolio/static/js/runtime-main.f61168ee.js",
     "runtime-main.js.map": "/CarliciaSmith-Portfolio/static/js/runtime-main.f61168ee.js.map",
     "static/css/2.150d169a.chunk.css": "/CarliciaSmith-Portfolio/static/css/2.150d169a.chunk.css",
@@ -12,12 +12,13 @@
     "static/js/3.37cc2069.chunk.js.map": "/CarliciaSmith-Portfolio/static/js/3.37cc2069.chunk.js.map",
     "index.html": "/CarliciaSmith-Portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.2feb65e2.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/main.2feb65e2.chunk.css.map",
+    "static/css/main.e2ca3b30.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/main.e2ca3b30.chunk.css.map",
     "static/js/2.762f9f51.chunk.js.LICENSE.txt": "/CarliciaSmith-Portfolio/static/js/2.762f9f51.chunk.js.LICENSE.txt",
     "static/media/ISStracker-homepage-screenshot.1012701b.png": "/CarliciaSmith-Portfolio/static/media/ISStracker-homepage-screenshot.1012701b.png",
     "static/media/Readme-generator-screenshot.5971a153.png": "/CarliciaSmith-Portfolio/static/media/Readme-generator-screenshot.5971a153.png",
     "static/media/Team-profile-generator-screenshot.9cd582c6.png": "/CarliciaSmith-Portfolio/static/media/Team-profile-generator-screenshot.9cd582c6.png",
     "static/media/cyber-santa-homepage.74d878e2.png": "/CarliciaSmith-Portfolio/static/media/cyber-santa-homepage.74d878e2.png",
+    "static/media/face_react_portfolio.511eb3c8.jpeg": "/CarliciaSmith-Portfolio/static/media/face_react_portfolio.511eb3c8.jpeg",
     "static/media/ft-homepage.94b0426d.png": "/CarliciaSmith-Portfolio/static/media/ft-homepage.94b0426d.png",
     "static/media/note-taker-screenshot.c465157f.png": "/CarliciaSmith-Portfolio/static/media/note-taker-screenshot.c465157f.png",
     "static/media/port-logo.2f7e95bc.jpeg": "/CarliciaSmith-Portfolio/static/media/port-logo.2f7e95bc.jpeg"
@@ -26,7 +27,7 @@
     "static/js/runtime-main.f61168ee.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.762f9f51.chunk.js",
-    "static/css/main.2feb65e2.chunk.css",
-    "static/js/main.0bf3f076.chunk.js"
+    "static/css/main.e2ca3b30.chunk.css",
+    "static/js/main.0c9bcde8.chunk.js"
   ]
 }

@@ -13,21 +13,24 @@
     width: 100%;
 }
 
-.about {
-    /* margin-right: 400px; */
+.portHead {
+    margin-left: 480px;
     padding-bottom: 2rem;
-    justify-content: center;
-    color: rosybrown;
+    /* justify-content: center; */
+    color: #BC8668;
+    font-family: 'M Plus 1p';
+    font-weight: 800;
 }
 
 .carousel {
     padding-left: 200px;
 }
 
-.title {
+.title ::before {
     padding-left: 15px;
     font-family: 'M Plus 1p';
     font-weight: 800;
+    z-index: -5;
 }
 
 .lang {

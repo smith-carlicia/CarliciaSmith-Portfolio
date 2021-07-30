@@ -38,11 +38,11 @@ class Portfolio extends Component {
             fluid 
             className="body" >
                 <Row>
-                    <Col md={2}></Col>
-                    <Col md={4}>
-                    <h1 className="about">Portfolio</h1>
+                    {/* <Col md={2}></Col> */}
+                    <Col md={12}>
+                    <h1 className="portHead">Portfolio</h1>
                     </Col>
-                    <Col md={6}></Col>
+                    {/* <Col md={2}></Col> */}
                 </Row>
 
                             <Row>

@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import burger from '../../utils/Img/eat-da-burger-screenshot-1.png'
+import employee from '../../utils/Img/employee-directory.png'
 import iss from '../../utils/Img/ISStracker-homepage-screenshot.png'
 import santa from '../../utils/Img/cyber-santa-homepage.png';
 import profile from '../../utils/Img/Team-profile-generator-screenshot.png';
@@ -66,14 +68,14 @@ class Portfolio extends Component {
                                 <Col md={2}/>
                                 <Col md={4}>
                                     <Card 
-                                        img={profile}
-                                        title="Team Profile Generator"
-                                        desc="This codebase is built via ES6 and node.js to create an office team generator completely from the users local terminal."
-                                        tech="HTML | CSS | JavaScript | Node.js<"
+                                        img={employee}
+                                        title="Employee Directory"
+                                        desc="This codebase is a employee directory created to search, sort and filter employees information generated from a random user API."
+                                        tech="HTML | CSS | JavaScript | Node.js | React.js"
                                     />
                                         <Button
-                                            deployed="https://github.com/smith-carlicia/team-profile-generator.git"
-                                            repo="https://github.com/smith-carlicia/team-profile-generator.git"/>
+                                            deployed="https://serene-tor-72255.herokuapp.com/"
+                                            repo="https://github.com/smith-carlicia/employee-directory.git"/>
                                 </Col>
                                 <Col md={4}>
                                         <Card 
@@ -103,14 +105,14 @@ class Portfolio extends Component {
                                 </Col>
                                 <Col md={4}>
                                     <Card 
-                                        img={read}
-                                        title="ReadMe Generator"
-                                        desc="Readme.md Generator is constructed to generate a Sample Readme.md from node.js terminal command line."
-                                        tech="JavaScript | Node.js"
+                                        img={burger}
+                                        title="Eat Da Burger!"
+                                        desc="This codebase is architectured to as a burger logger to take in the users input of their desired burger and to log it into the provided database in the backend of the application. On the client side, this application lets users input the names of burgers they'd like to eat. When a user submits the name of their desired burger, the application will display the burger on the left side of the page waiting to be devoured. The burgers will be in a waiting area on the let side of the application waiting to be devoured with a Devour It! button. When the Devour It! button is pressed, the consumed burger will appear on the right side of the screen. The burger logger is primarily constructed via Handlebars, Express, Node and MySQL. Node and MySQL queries routes the data from the user input into the application while Handlebars generates the client side, specifically views of the application. The burger logger is deployed via Heroku to host as server and database for this application."
+                                        tech="JavaScript | Node.js | Handlebars.js | MySQL"
                                     />
                                     <Button
-                                        deployed="https://github.com/smith-carlicia/readme-generator.git"
-                                        repo="https://github.com/smith-carlicia/readme-generator.git" />
+                                        deployed="https://floating-meadow-92330.herokuapp.com/burgers"
+                                        repo="https://github.com/smith-carlicia/burger.git" />
                                 </Col>
                                 <Col md={2}/>
                             </Row>                                

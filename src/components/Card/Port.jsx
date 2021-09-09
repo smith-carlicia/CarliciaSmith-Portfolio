@@ -7,22 +7,18 @@ import {Grid,
 
 const theCard = (props) => {
     return(
-        <Grid container>
-            <Card className="card" style={{ maxWidth: "350px" }}>
-                <div className="inner">
-                    <div className="front">
-                        <img className="image" src={props.img} />
-                        <>
-                        <h5 className="cardTitle">{props.title}</h5>
-                        </>
+        <Grid className="container">
+            <Card className="card" >
+                <CardContent>
+                    <img className="image" src={props.img} />
+                    <div className="overlay">
+                        <div className="overlayContent">
+                            <h5 className="cardTitle">{props.title}</h5>
+                            <p className="description">{props.desc}</p> 
+                            <h6 className="technologies">{props.tech}</h6> 
+                        </div>
                     </div>
-                    <div className="back">
-                        <CardContent>
-                            <p className="desciption">{props.desc}</p> 
-                            <h6 className="technologies">{props.tech}</h6>    
-                        </CardContent>
-                    </div>
-                </div>
+                </CardContent>
             </Card>
         </Grid>
     )

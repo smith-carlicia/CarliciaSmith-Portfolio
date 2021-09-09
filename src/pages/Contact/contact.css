@@ -43,40 +43,40 @@
 } 
 
 .emhead {
-    /* margin-top: 20px;
-    margin-left: 120px; */
+    margin-top: 20px;
+    margin-left: 50px;
     /* margin: 0 auto; */
     text-align: center;
     color: black;
 }
 
 .ctchead {
-    /* margin-top: 20px;
-    margin-left: 104px; */
+    margin-top: 20px;
+    margin-left: 65px;
     /* margin: 0 auto; */
     text-align: center;
     color: black;
 }
 
 .gthead {
-    /* margin-top: 20px;
-    margin-left: 105px;    */
+    margin-top: 20px;
+    margin-left: 65px;   
     /* margin: 0 auto; */
     text-align: center;
     color: black;
 }
 
 .em {
-    /* padding-left: 52px; */
-    padding: 0;
+    padding-left: 52px;
+    /* padding: 0; */
     color: black;
     font-size: 12px;
     justify-content: center;
 }
 
 .linked {
-    /* padding-left: 52px; */
-    padding: 0;
+    padding-left: 52px;
+    /* padding: 0; */
     text-decoration: none;
     color: black;
     font-size: 12px;
@@ -84,7 +84,7 @@
 }
 
 .gt {
-    /* padding-left: 50px; */
+    padding-left: 50px;
     text-decoration: none;
     color: black;
     font-size: 12px;

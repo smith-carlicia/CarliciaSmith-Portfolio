@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CarliciaSmith-Portfolio/static/css/main.b8a56c43.chunk.css",
-    "main.js": "/CarliciaSmith-Portfolio/static/js/main.fbba305b.chunk.js",
-    "main.js.map": "/CarliciaSmith-Portfolio/static/js/main.fbba305b.chunk.js.map",
+    "main.css": "/CarliciaSmith-Portfolio/static/css/main.679a6f41.chunk.css",
+    "main.js": "/CarliciaSmith-Portfolio/static/js/main.09172b1f.chunk.js",
+    "main.js.map": "/CarliciaSmith-Portfolio/static/js/main.09172b1f.chunk.js.map",
     "runtime-main.js": "/CarliciaSmith-Portfolio/static/js/runtime-main.89458fba.js",
     "runtime-main.js.map": "/CarliciaSmith-Portfolio/static/js/runtime-main.89458fba.js.map",
     "static/css/2.150d169a.chunk.css": "/CarliciaSmith-Portfolio/static/css/2.150d169a.chunk.css",
@@ -12,12 +12,14 @@
     "static/js/3.36916883.chunk.js.map": "/CarliciaSmith-Portfolio/static/js/3.36916883.chunk.js.map",
     "index.html": "/CarliciaSmith-Portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.b8a56c43.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/main.b8a56c43.chunk.css.map",
+    "static/css/main.679a6f41.chunk.css.map": "/CarliciaSmith-Portfolio/static/css/main.679a6f41.chunk.css.map",
     "static/js/2.68207afd.chunk.js.LICENSE.txt": "/CarliciaSmith-Portfolio/static/js/2.68207afd.chunk.js.LICENSE.txt",
     "static/media/ISStracker-homepage-screenshot.1012701b.png": "/CarliciaSmith-Portfolio/static/media/ISStracker-homepage-screenshot.1012701b.png",
     "static/media/Readme-generator-screenshot.5971a153.png": "/CarliciaSmith-Portfolio/static/media/Readme-generator-screenshot.5971a153.png",
     "static/media/Team-profile-generator-screenshot.9cd582c6.png": "/CarliciaSmith-Portfolio/static/media/Team-profile-generator-screenshot.9cd582c6.png",
     "static/media/cyber-santa-homepage.74d878e2.png": "/CarliciaSmith-Portfolio/static/media/cyber-santa-homepage.74d878e2.png",
+    "static/media/eat-da-burger-screenshot-1.9585eada.png": "/CarliciaSmith-Portfolio/static/media/eat-da-burger-screenshot-1.9585eada.png",
+    "static/media/employee-directory.bee83dda.png": "/CarliciaSmith-Portfolio/static/media/employee-directory.bee83dda.png",
     "static/media/face_react_portfolio.511eb3c8.jpeg": "/CarliciaSmith-Portfolio/static/media/face_react_portfolio.511eb3c8.jpeg",
     "static/media/ft-homepage.94b0426d.png": "/CarliciaSmith-Portfolio/static/media/ft-homepage.94b0426d.png",
     "static/media/note-taker-screenshot.c465157f.png": "/CarliciaSmith-Portfolio/static/media/note-taker-screenshot.c465157f.png",
@@ -27,7 +29,7 @@
     "static/js/runtime-main.89458fba.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.68207afd.chunk.js",
-    "static/css/main.b8a56c43.chunk.css",
-    "static/js/main.fbba305b.chunk.js"
+    "static/css/main.679a6f41.chunk.css",
+    "static/js/main.09172b1f.chunk.js"
   ]
 }

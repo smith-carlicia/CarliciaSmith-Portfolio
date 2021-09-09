@@ -7,10 +7,19 @@
     font-family: 'M Plus 1p';
     margin-left: 1px;
     padding-bottom: 3rem;
-    background-color:#BC8668;
-    opacity: 0.7;
+    color:#BC8668;
     font-weight: 800;
 }
+
+.contactcrd {
+    margin-top: 65px;
+    padding-right: 65px;
+    /* max-width: 300px;
+    min-height:200px; */
+    border-radius: 0;
+    background-color: #BC8668;
+    opacity: 0.7;
+} 
 
 .fontIcon {
     margin-top:45px;

@@ -32,7 +32,7 @@
 
 .emhead {
     margin-top: 20px;
-    margin-left: 135px;
+    margin-left: 130px;
     color: black;
 }
 
@@ -45,13 +45,13 @@
 
 .gthead {
     margin-top: 20px;
-    margin-left: 143px;   
+    margin-left: 145px;   
     color: black;
     text-decoration: none;
 }
 
 .em {
-    padding-left: 135px;
+    margin-left: 115px;
     color: black;
     font-size: 15px;
 }
@@ -64,7 +64,7 @@
 }
 
 .gt {
-    padding-left: 120px;
+    margin-left: 110px;
     text-decoration: none;
     color: black;
     font-size: 15px;

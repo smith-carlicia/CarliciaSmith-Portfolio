@@ -32,20 +32,20 @@
 
 .emhead {
     margin-top: 20px;
-    margin-left: 190px;
+    padding-left: 190px;
     color: black;
 }
 
 .ctchead {
     margin-top: 20px;
-    margin-left:170px;
+    padding-left:170px;
     color: black;
     text-decoration: none;
 }
 
 .gthead {
     margin-top: 20px;
-    margin-left: 180px;   
+    padding-left: 180px;   
     color: black;
     text-decoration: none;
 }

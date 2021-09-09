@@ -23,11 +23,11 @@
 
 .fontIcon {
     margin-top:45px;
-    /* padding-right: 5px;
-    margin-left: 130px; */
+    padding-right: 5px;
+    margin-left: 110px;
     color: white;
     font-size: 3rem;
-    text-align: center;
+    /* text-align: center; */
 } 
 
 .emhead {

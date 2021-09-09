@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import face from '../../utils/Img/face_react_portfolio.jpeg';
 import graph from '../../utils/Img/port-logo.jpeg'
 // import { Grid, Button } from '@material-ui/core';
 import './Home.css';
@@ -19,6 +20,7 @@ class Home extends Component {
                      {/* <Col xs md lg={6} className="photo />  */}
 
                     <Col xs md lg={12}>
+                        {/* <img className="faceCard" src={face} /> */}
                        <h3
                             className="carlicia">
                                 C  a  r  l  i  c  i  a   S  m  i  t  h
@@ -38,39 +40,7 @@ class Home extends Component {
                                 Resume
                         </Button>
                     </Col>
-                    {/* <Col xs md lg={2} /> */}
-
-                        
-                    {/* <Col lg={4}>
-                        <Button 
-                            className="resume" 
-                            variant="outline-dark"
-                            justify="center"
-                            alignItems="center"
-                            size="large"
-                            href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" 
-                            target="_blank">
-                                Resume
-                        </Button>
-                    </Col> */}
                 </Row>
-
-
-                {/* <Row>
-                    <Col lg={8}></Col>
-                    <Col lg={4}>
-                        <Button 
-                            className="resume" 
-                            variant="outline-dark"
-                            justify="center"
-                            alignItems="center"
-                            size="large"
-                            href="https://drive.google.com/file/d/1_qATeK_qcJb_ZE6JdkaH0vzPz-RqnLzc/view?usp=sharing" 
-                            target="_blank">
-                                Resume
-                        </Button>
-                    </Col>
-                // </Row> */}
         </Container>
         </>
         // <Grid id="/">

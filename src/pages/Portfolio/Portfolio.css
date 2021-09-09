@@ -1,54 +1,24 @@
 .body {
     background-color: white;
-}
+} 
 
-.rowPad {
-    margin-bottom: 10rem;
-}
-
-.carousel {
+/* .carousel {
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 200px;
     width: 100%;
-}
+} */
 
-.portHead {
-    margin-left: 480px;
-    padding-bottom: 2rem;
-    /* justify-content: center; */
+.portHeader {
+    /* margin-left: 480px; */
+    text-align: center;
+    padding-bottom: 3rem;
     color: #BC8668;
     font-family: 'M Plus 1p';
     font-weight: 800;
 }
 
-.carousel {
+/* .carousel {
     padding-left: 200px;
-}
+} */
 
-.title ::before {
-    padding-left: 15px;
-    font-family: 'M Plus 1p';
-    font-weight: 800;
-    z-index: -5;
-}
-
-.lang {
-    padding-left: 15px;
-    font-family: 'M Plus 1p';
-    font-weight: 800;
-}
-
-.protech {
-    font-size: 3rem;
-    color: rosybrown;
-    padding-right: 10px;
-    justify-content: center;
-}
-
-.desc {
-    padding-left: 15px;
-    margin-right: 31px;
-    font-family: 'M Plus 1p';
-    font-weight: 800;
-}

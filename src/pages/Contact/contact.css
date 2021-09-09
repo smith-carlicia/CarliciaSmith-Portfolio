@@ -7,7 +7,7 @@
     font-family: 'M Plus 1p';
     margin-left: 1px;
     padding-top: 2rem;
-    color:rosybrown;
+    color:#BC8668;;
     font-weight: 800;
 }
 
@@ -19,6 +19,10 @@
     font-size: 3rem;
 }
 
+/* .contactcrd :hover{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+} */
 .contactcrd {
     margin-top: 65px;
     padding-right: 65px;

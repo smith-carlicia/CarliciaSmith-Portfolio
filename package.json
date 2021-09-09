@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://smith-carlicia.github.io/carlicia-smith",
+  "homepage": "https://smith-carlicia.github.io/CarliciaSmith-Portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -13,14 +13,17 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "bootstrap": "^4.6.0",
     "devicon-react-svg": "^0.2.3",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-devicon": "^0.1.9",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.2",
     "shards-react": "^1.0.3",
     "web-vitals": "^0.2.4"
   },

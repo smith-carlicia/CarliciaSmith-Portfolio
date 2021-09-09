@@ -1,21 +1,19 @@
 import React from 'react'
 import './Footer.css'
-import { Grid } from '@material-ui/core';
+import Container from 'react-bootstrap/Container'
 
 function Footer() {
 
     return(
-        <Grid>
-            <Grid 
-                container
-                direction="row"
-                justify="center"
-                alignItems="center">
-                        <footer className="container">
-                            <p className="copy"> Made by Carlicia Smith</p>
-                        </footer>
-            </Grid>
-        </Grid>
+        <>
+            <Container 
+                fluid
+                className="footer">
+                    <footer className="container">
+                        <p className="copy"> Made by Carlicia Smith</p>
+                    </footer>
+            </Container>
+        </>
     )
 }
 

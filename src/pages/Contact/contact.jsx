@@ -21,19 +21,17 @@ class Contact extends Component {
                 id="Contact"
                 >
                     <Row>
-                        <Col md={5}></Col>
-                        <Col md={4}>
-                            <h2 
+                        <Col md={12}>
+                            <h1 
                                 className="contactInfo">
                                     Contact
-                            </h2>
+                            </h1>
                         </Col>
-                        <Col md={2}></Col>
                     </Row>
 
                     <Row>
-                        <Col md={1} />
-                        <Col md={1}>
+                        {/* <Col md={1} /> */}
+                        <Col md={4}>
                             <Card 
                                 className="contactcrd">
                                 <a>
@@ -52,8 +50,8 @@ class Contact extends Component {
                             </Card>
                         </Col>
 
-                        <Col md={2} />
-                        <Col md={1}>
+                        {/* <Col md={1} /> */}
+                        <Col md={4}>
                             <Card 
                                 className="contactcrd">
                                 <a 
@@ -74,8 +72,8 @@ class Contact extends Component {
                             </Card>
                         </Col>
 
-                        <Col md={2} />
-                        <Col md={2}>
+                        {/* <Col md={1} /> */}
+                        <Col md={4}>
                             <Card 
                                 className="contactcrd">
                                 <a 
@@ -98,7 +96,7 @@ class Contact extends Component {
                                 </h6>  
                             </Card>
                         </Col>
-                        <Col md={1} />
+                        {/* <Col md={1} /> */}
                     </Row>
 
             </Container>
